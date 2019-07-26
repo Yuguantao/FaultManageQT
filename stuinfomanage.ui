@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StuInfoManage</class>
+ <widget class="QMainWindow" name="StuInfoManage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>641</width>
+    <height>489</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>50</y>
+      <width>571</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QTableWidget" name="information_tableWidget">
+       <column>
+        <property name="text">
+         <string>系统</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>型号</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>编号</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>进场日期</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>功能用途</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>存放地点</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>责任部门</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>责任人</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>生产厂家</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>厂家联系人</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>备附件说明</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>备注</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="addfinfo">
+       <property name="text">
+        <string>录入设备信息</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="selectinfo">
+       <property name="text">
+        <string>查询设备信息</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="exit">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>410</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>返回</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
